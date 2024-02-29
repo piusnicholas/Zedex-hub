@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+.logo{
+    border: 1px solid white;
+   border-radius: 65px;
+   float: left;
+   width: 13vw;
+   margin-top: 1vh;
+}
+h4{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-spacing: 1px;
+    background-size: 50px;
+    font-size: 10vh;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 5vh;
+}
+.button{
+    padding: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 70vh;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    margin-right: 30vw;
+   border: 1px solid black;
+    border-radius: 10px ;
+    color: white;
+    text-align: center;
+    height: 30vh;
+}
+.input{
+    margin: 30px;
+    border-radius: 15px;
+    border: solid white;
+    width: 40vh;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.submit{
+    margin: 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 30vh;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-out;
+}
+.submit:hover{
+    transform:scale(1.1);
+}
+.bot{
+    margin: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: black;
+    width: 20vh;
+    height: 40px;
+    text-align:center ;
+    color: white;
+}
+.bot:hover{
+    transform: scale(1.2);
+    background-color: transparent ;
+    transition: .4s;
+}
+h3{
+    color: white;
+}
+.car{
+    margin: 30px;
+    border-radius: 25px;
+    border:2px solid white;
+    background-color: darkblue;
+    width: 40vh;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.car:hover{
+    transform: scale(1.2);
+    background-color: white;
+    transition: .4s;
+    color: black;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 33vh;
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

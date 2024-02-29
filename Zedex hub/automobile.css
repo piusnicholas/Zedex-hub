@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.log{
+    font-size: 15vh;
+    margin-bottom: 40vh;
+    margin-left: 45vh;
+    color: white;
+}
+.logo{
+    border: 1px solid white;
+   border-radius: 75px;
+   float: left;
+   width: 13vw;
+   margin-top: 1vh;
+}
+.size{
+    margin-left: 0vh;
+}
+.id{
+    padding: 100vh;
+}
+nav{
+    /* display: flex; */
+    margin-bottom: 40vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+ }
+nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 25px;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+nav ul li a:hover{
+   color: white;
+   transition: .4s;
+}
+span{
+    color: white;
+}
+.size{
+    width: 100%;
+    border: 1px solid transparent;
+}
+.lamb{
+    color: white;
+    font-weight: bolder;
+    font-size: 13vh;
+    margin-left: 20vh;
+    margin-top: -1.5vh;
+}
+.pic{
+    background-position: center;
+    background-size: cover;
+    margin-right: -9999999vh;
+}
+.text{
+    margin-left: 2vh;
+    color: white;
+}
+.font{
+    color: white;
+    margin-left: 15vh;
+}
+.lone{
+    border: 2px solid black;
+    background-color: white;
+    height: 7vh;
+    width: 18vh;
+    border-radius: 20px;
+    margin-top: 70vh;
+    margin: 1vh;
+    transition: 0.3s ease-out;
+}
+.lone:hover{
+    transform:scale(1.1) ;
+    background-color: white;
+    color: black;
+}
+.vone{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    height: 7vh;
+    width: 18vh;
+    border-radius: 20px;
+    margin-top: 70vh;
+    margin: 1vh;
+    transition: 0.3s ease-out;
+}
+.vone:hover{
+    transform:scale(1.1) ;
+    background-color: white;
+    color: black;
+}
+.btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-left: 13vh;
+    width: 15vh;
+    height:6vh;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+}
+.btn:hover{
+    transform:scale(1.1) ;
+    background-color: white;
+    color: white;
+}
+.toy{
+    color: white;
+    font-weight: bolder;
+    font-size: 13vh;
+    margin-left: 40vh;
+    margin-top: 9vh;
+}
